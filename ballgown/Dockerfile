@@ -20,7 +20,7 @@ RUN Rscript -e 'source("https://bioconductor.org/biocLite.R"); biocLite("genefil
 RUN rm -rf /srv/shiny-server/* 
  
 # Copy the source code of the app from my hard drive to the container (in this case we use the app "wordcloud" from http://shiny.rstudio.com/gallery/word-cloud.html)
-COPY ballgown/* /srv/shiny-server/
+COPY server.R ui.R /srv/shiny-server/
 # change permission of the shiny folder where the app sits
 RUN chmod -R 777 /srv/shiny-server
 # Start the server with the container
