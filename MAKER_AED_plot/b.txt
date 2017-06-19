@@ -1,0 +1,6 @@
+transcript_id	AED
+maker-tig00000219-augustus-gene-0.1-mRNA-1	0.00
+maker-tig00000219-augustus-gene-0.1-mRNA-1	0.10
+maker-tig00000219-augustus-gene-0.1-mRNA-1	0.10
+maker-tig00000219-augustus-gene-0.1-mRNA-1	0.20
+maker-tig00000219-augustus-gene-0.1-mRNA-1	0.10
